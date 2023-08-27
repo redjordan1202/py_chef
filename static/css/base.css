@@ -1,0 +1,92 @@
+/* Set box sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* For Mobile Phones */
+[class*="col-"] {
+    width: 100%;
+    float: left;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .xs-col-1 {width: 8.33%;}
+    .xs-col-2 {width: 16.66%;}
+    .xs-col-3 {width: 25%;}
+    .xs-col-4 {width: 33.33%;}
+    .xs-col-5 {width: 41.66%;}
+    .xs-col-6 {width: 50%;}
+    .xs-col-7 {width: 58.33%;}
+    .xs-col-8 {width: 66.66%;}
+    .xs-col-9 {width: 75%;}
+    .xs-col-10 {width: 83.33%;}
+    .xs-col-11 {width: 91.66%;}
+    .xs-col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 600px) {
+    .s-col-1 {width: 8.33%;}
+    .s-col-2 {width: 16.66%;}
+    .s-col-3 {width: 25%;}
+    .s-col-4 {width: 33.33%;}
+    .s-col-5 {width: 41.66%;}
+    .s-col-6 {width: 50%;}
+    .s-col-7 {width: 58.33%;}
+    .s-col-8 {width: 66.66%;}
+    .s-col-9 {width: 75%;}
+    .s-col-10 {width: 83.33%;}
+    .s-col-11 {width: 91.66%;}
+    .s-col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 768px) {
+    .m-col-1 {width: 8.33%;}
+    .m-col-2 {width: 16.66%;}
+    .m-col-3 {width: 25%;}
+    .m-col-4 {width: 33.33%;}
+    .m-col-5 {width: 41.66%;}
+    .m-col-6 {width: 50%;}
+    .m-col-7 {width: 58.33%;}
+    .m-col-8 {width: 66.66%;}
+    .m-col-9 {width: 75%;}
+    .m-col-10 {width: 83.33%;}
+    .m-col-11 {width: 91.66%;}
+    .m-col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 992px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+@media only screen and (min-width: 1200px) {
+    .l-col-1 {width: 8.33%;}
+    .l-col-2 {width: 16.66%;}
+    .l-col-3 {width: 25%;}
+    .l-col-4 {width: 33.33%;}
+    .l-col-5 {width: 41.66%;}
+    .l-col-6 {width: 50%;}
+    .l-col-7 {width: 58.33%;}
+    .l-col-8 {width: 66.66%;}
+    .l-col-9 {width: 75%;}
+    .l-col-10 {width: 83.33%;}
+    .l-col-11 {width: 91.66%;}
+    .l-col-12 {width: 100%;}
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
