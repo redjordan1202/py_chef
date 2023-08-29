@@ -95,18 +95,22 @@
 .text-white {color: white;}
 .text-black {color: black;}
 .text-primary {color: #382bf0;}
-.text-mixed {color: #1a1625;}
+.text-secondary {color: #a688fa;}
 
 /* Background Colors */
 /* Dark Backgrounds */
 .background-dark-100 {background-color: #121212;}
 .background-dark-200 {background-color: #282828;}
 .background-dark-300 {background-color: #3f3f3f;}
+.background-dark-400 {background-color: #575757;}
+.background-dark-500 {background-color: #717171;}
 
 /* Accent Colors */
 .background-primary-100 {background-color: #382bf0;}
 .background-primary-200 {background-color: #5e43f3;}
 .background-primary-300 {background-color: #7a5af5;}
+.background-primary-400 {background-color: #9171f8;}
+.background-primary-500 {background-color: #a688fa;}
 
 /* Mixed Colors */
 .background-mixed-100 {background-color: #1a1625;}
