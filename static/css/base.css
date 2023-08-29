@@ -116,3 +116,137 @@
 .background-mixed-100 {background-color: #1a1625;}
 .background-mixed-200 {background-color: #2f2b3a;}
 .background-mixed-300 {background-color: #46424f;}
+
+/* Padding Classes */
+/* X Padding */
+.padx-5 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.padx-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.padx-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.padx-20 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.padx-25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.padx-30 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Y Padding */
+.pady-5 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.pady-10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pady-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.pady-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pady-25 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.pady-30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* All Padding */
+.pad-5 {padding: 5px;}
+.pad-10 {padding: 10px;}
+.pad-15 {padding: 15px;}
+.pad-20 {padding: 20px;}
+.pad-25 {padding: 25px;}
+.pad-30 {padding: 30px;}
+
+/* No Padding */
+.no-pad {padding: none;}
+
+/* Auto Padding */
+.auto-pad {padding: auto;}
+
+/* Margin Classes */
+/* X Margin */
+.marginx-5 {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.marginx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.marginx-15 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.marginx-20 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.marginx-25 {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.marginx-30 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* Y Margin */
+.marginy-5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.marginy-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.marginy-15 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.marginy-20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.marginy-25 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.marginy-30 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* All Margin */
+.margin-5 {margin: 5px;}
+.margin-10 {margin: 10px;}
+.margin-15 {margin: 15px;}
+.margin-20 {margin: 20px;}
+.margin-25 {margin: 25px;}
+.margin-30 {margin: 30px;}
+
+/* No Margin */
+.no-margin {margin: none;}
+
+/* Auto Margin */
+.auto-margin {margin: auto;}
