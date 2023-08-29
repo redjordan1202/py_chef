@@ -16,18 +16,18 @@ class Recipe(models.Model):
 class Ingredient(models.Model):
     name = models.CharField(max_length=255, blank=False)
     
-    CUPS = "Cups",
-    TABLESPOON = "TBSP",
-    TEASPOON = "TSP",
-    OUNCE = "Oz",
-    POUNDS = "Lbs",
-    GALLON = "gal",
-    EACH = "ea",
-    GRAM = "g",
-    MILLIGRAM = "mg",
-    KILOGRAM = "kg",
+    CUPS = "Cups"
+    TABLESPOON = "TBSP"
+    TEASPOON = "TSP"
+    OUNCE = "Oz"
+    POUNDS = "Lbs"
+    GALLON = "gal"
+    EACH = "ea"
+    GRAM = "g"
+    MILLIGRAM = "mg"
+    KILOGRAM = "kg"
 
-    units = (
+    units = [
         (CUPS,"Cups"),
         (TABLESPOON,"TBSP"),
         (TEASPOON,"TSP"),
@@ -37,10 +37,10 @@ class Ingredient(models.Model):
         (EACH,"ea"),
         (GRAM,"g"),
         (MILLIGRAM,"mg"),
-        (KILOGRAM,"kg"),
-    )
+        (KILOGRAM,"kg")
+    ]
 
-    unit = models.CharField(max_length=50, choices=units, default=EACH)
+    unit = models.CharField(max_length=50, choices=units)
     quantity = models.IntegerField(blank=False, validators=[MaxValueValidator(254)])
     in_stock = models.BooleanField(default=False)
 
