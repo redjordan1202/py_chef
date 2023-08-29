@@ -90,3 +90,25 @@
     clear: both;
     display: table;
 }
+
+/* Text Colors */
+.text-white {color: white;}
+.text-black {color: black;}
+.text-primary {color: #382bf0;}
+.text-mixed {color: #1a1625;}
+
+/* Background Colors */
+/* Dark Backgrounds */
+.background-dark-100 {background-color: #121212;}
+.background-dark-200 {background-color: #282828;}
+.background-dark-300 {background-color: #3f3f3f;}
+
+/* Accent Colors */
+.background-primary-100 {background-color: #382bf0;}
+.background-primary-200 {background-color: #5e43f3;}
+.background-primary-300 {background-color: #7a5af5;}
+
+/* Mixed Colors */
+.background-mixed-100 {background-color: #1a1625;}
+.background-mixed-200 {background-color: #2f2b3a;}
+.background-mixed-300 {background-color: #46424f;}
