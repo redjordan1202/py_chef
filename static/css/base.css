@@ -1,3 +1,23 @@
+/* Define Color Variables */
+:root {
+    /* Dark Colors */
+    --dark-100: #121212;
+    --dark-200: #282828;
+    --dark-300: #3f3f3f;
+    --dark-400: #575757;
+    --dark-500: #717171;
+    /* Accent Colors */
+    --primary-100: #382bf0;
+    --primary-200: #5e43f3;
+    --primary-300: #7a5af5;
+    --primary-400: #9171f8;
+    --primary-500: #a688fa;
+    /* Mixed Colors */
+    --mixed-100: #1a1625;
+    --mixed-200: #2f2b3a;
+    --mixed-300: #46424f;
+}
+
 /* Set box sizing */
 * {
     box-sizing: border-box;
@@ -110,28 +130,28 @@ body {
 /* Text Colors */
 .text-white {color: white;}
 .text-black {color: black;}
-.text-primary {color: #382bf0;}
-.text-secondary {color: #a688fa;}
+.text-primary {color: var(--primary-100);}
+.text-secondary {color: var(--primary-500);}
 
 /* Background Colors */
 /* Dark Backgrounds */
-.background-dark-100 {background-color: #121212;}
-.background-dark-200 {background-color: #282828;}
-.background-dark-300 {background-color: #3f3f3f;}
-.background-dark-400 {background-color: #575757;}
-.background-dark-500 {background-color: #717171;}
+.background-dark-100 {background-color: var(--dark-100);}
+.background-dark-200 {background-color: var(--dark-200);}
+.background-dark-300 {background-color: var(--dark-300)}
+.background-dark-400 {background-color: var(--dark-400);}
+.background-dark-500 {background-color: var(--dark-500);}
 
 /* Accent Colors */
-.background-primary-100 {background-color: #382bf0;}
-.background-primary-200 {background-color: #5e43f3;}
-.background-primary-300 {background-color: #7a5af5;}
-.background-primary-400 {background-color: #9171f8;}
-.background-primary-500 {background-color: #a688fa;}
+.background-primary-100 {background-color: var(--primary-100);}
+.background-primary-200 {background-color: var(--primary-200);}
+.background-primary-300 {background-color: var(--primary-300);}
+.background-primary-400 {background-color: var(--primary-400);}
+.background-primary-500 {background-color: var(--primary-500);}
 
 /* Mixed Colors */
-.background-mixed-100 {background-color: #1a1625;}
-.background-mixed-200 {background-color: #2f2b3a;}
-.background-mixed-300 {background-color: #46424f;}
+.background-mixed-100 {background-color: var(--mixed-100);}
+.background-mixed-200 {background-color: var(--mixed-200);}
+.background-mixed-300 {background-color: var(--mixed-300);}
 
 /* Padding Classes */
 /* X Padding */
@@ -311,8 +331,8 @@ body {
 }
 
 .navbar-expand:hover, .navbar-item:hover, .dropdown-item:hover{
-    color: #a688fa;
-    background-color: #46424f;
+    color: var(--primary-500);
+    background-color: var(--mixed-300);
     cursor: pointer;
     font-size: 1.1rem;
 }
@@ -367,4 +387,3 @@ body {
     background-color: #2f2b3a;
     line-height: 100%;
 }
-
