@@ -10,7 +10,7 @@ function expand_navbar() {
     }
 }
 
-function set_events() {
+function navbar_set_events() {
     console.log("setting events")
     navbar_expand = document.getElementsByClassName("navbar-expand");
     for (let x of navbar_expand) {
