@@ -16,6 +16,10 @@
     --mixed-100: #1a1625;
     --mixed-200: #2f2b3a;
     --mixed-300: #46424f;
+    /* Other Colors */
+    --warning: #fbff00;
+    --danger: #d64848;
+    --success: #01ff0e;
 }
 
 /* Set box sizing */
@@ -391,4 +395,69 @@ body {
     margin: 0;
     background-color: #2f2b3a;
     line-height: 100%;
+}
+
+.btn-primary {
+    background-color: var(--primary-500);
+    color: white;
+}
+
+.btn-secondary {
+    background-color: var(--primary-100);
+    color: white;
+}
+
+.btn-warning {
+    background-color: var(--warning);
+    color: black;
+}
+
+.btn-success {
+    background-color: var(--success);
+    color: white;
+}
+
+.btn-danger {
+    background-color: var(--danger);
+    color: white;
+}
+
+.btn {
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    border-color: var(--mixed-300);
+    border-width: 0.25rem;
+    display: inline-block;
+}
+
+.btn-large {
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    border-color: var(--mixed-300);
+    border-width: 0.25rem;
+}
+
+.btn-small {
+    padding: .375rem .5rem;
+    font-size: 0.75rem;
+    line-height: 1.5;
+    border-radius: 0.5rem;
+    border-color: var(--mixed-300);
+    border-width: 0.25rem;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.text-center {text-align: center;}
+
+.plain-link {
+    text-decoration: none;
+    color: inherit;
 }
