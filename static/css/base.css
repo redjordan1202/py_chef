@@ -317,6 +317,11 @@ body {
     border-radius: 15px;
 }
 
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar-expand {
     display: block;
     float: left;
